@@ -1,0 +1,23 @@
+- link: /
+  title: Home
+  icon: home
+
+- link: "#about
+  title: About
+  icon: info
+
+- link: "#services"
+  title: Services
+  icon: briefcase
+
+- link: "#partners"
+  title: Partners
+  icon: users
+
+- link: "#clients"
+  title: Clients
+  icon: users
+
+- link: "#opinions"
+  title: Opinions
+  icon: comment-alt

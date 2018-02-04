@@ -1,0 +1,7 @@
+{% for item in site.data.nav %}
+    <li>
+        <a href="{{ item.link }}" title="{{ item.title }}">
+            <i class="fas fa-{{ item.icon }}"></i> {{ item.title }}
+        </a>
+    </li>
+{% endfor %}

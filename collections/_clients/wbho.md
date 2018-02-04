@@ -1,5 +1,5 @@
 ---
-title: WBHO
+title: 'WBHO '
 image: /assets/img/uploads/wbho-logo.png
 description: >-
   The origins of the present group date back to 1970 when Wilson-Holmes (Pty)

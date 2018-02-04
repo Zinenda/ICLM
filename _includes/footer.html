@@ -2,21 +2,22 @@
     <div class="container">
         <div class="row">
             <div class="col s12 l4">
-                <h5>Services</h5>
-                <ul>
-                    {% for item in site.services %}
-                        <li>{{ item.title }}</li>
-                    {% endfor %}
-                </ul>
+                <h5>Who We Are</h5>
+                ICLM is your one-step logistics solutions provider, 
+                specialized in the field of international freight, 
+                as well domestics day to day delivery, 
+                project freight and logistics on global scale
             </div>
 
             <div class="col s12 l4">
-                <h5>Social</h5>
-                
+                <h5>Contact Us</h5>
+                Tel: +21 084 017 <br>
+                Cel: +258 84  380 8268 <br>
+                Email: <a href="mailto:{{ site.email }}" class="white-text" title="Email">{{ site.email }}</a>
             </div>
 
             <div class="col s12 l4">
-                <h5>Contact</h5>   
+                <h5>Talk to Us</h5>   
                 {% include contact-form.html %}
             </div>
         </div>

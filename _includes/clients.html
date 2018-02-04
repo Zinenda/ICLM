@@ -1,0 +1,21 @@
+<section class="section">
+    <section class="container center">
+        <i class="fa-5x far fa-user-circle"></i>
+        <h3>Top Clients</h3><hr>
+        <div class="row">
+            {% for item in site.clients %}
+                <div class="col s12 l4">
+                    <div class="card medium hoverable">
+                        <div class="card-image">
+                            <img src="{{ item.image }}" alt="{{ item.title }}" class="materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">{{ item.title }}</span>
+                            <p class="light">{{ content }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</section>

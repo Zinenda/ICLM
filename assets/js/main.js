@@ -1,6 +1,9 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.scrollspy').scrollSpy();
+    $('.tabs').tabs({
+        swipeable: true
+    });
     $('.slider').slider({
         height: 600
     });

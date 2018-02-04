@@ -5,12 +5,12 @@ backend:
     - client
   branch: master
 
-media_folder: "collectionsassets/img/uploads"
+media_folder: "assets/img/uploads"
   
 collections:
   - label: "About"
     name: "about"
-    folder: "collections_about"
+    folder: "collections/_about"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -19,7 +19,7 @@ collections:
 
   - label: "Services"
     name: "services"
-    folder: "collections_services"
+    folder: "collections/_services"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -28,7 +28,7 @@ collections:
 
   - label: "Partners"
     name: "partners"
-    folder: "collections_partners"
+    folder: "collections/_partners"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -37,7 +37,7 @@ collections:
 
   - label: "Clients"
     name: "clients"
-    folder: "collections_clients"
+    folder: "collections/_clients"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -46,8 +46,16 @@ collections:
 
   - label: "Slider"
     name: "slider"
-    folder: "collections_slider"
+    folder: "collections/_slider"
     create: true
     fields:
       - {label: "Tema", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
+
+  - label: "Locations"
+    name: "locations"
+    folder: "collections/_locations"
+    create: true
+    fields:
+      - {label: "Province", name: "province", widget: "string"}
+      - {label: "Localion", name: "location", widget: "string"}

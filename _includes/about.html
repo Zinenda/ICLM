@@ -1,0 +1,28 @@
+<section class="section">
+    <div class="container center">
+        <i class="fa-5x fas fa-info-circle"></i>
+        <h3>About Us</h3><hr>
+
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs tabs-fixed-width z-depth-1">
+                    {% for item in site.about %}
+                        <li class="tab s3">
+                            <a href="#{{ item.title | downcase }}">{{ item.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {% for item in site.about %}
+                <div id="#{{ item.title | downcase }}" class="col s12">
+                    <div class="container">
+                        <i class="fa-2x fas fa-{{ item.icon }}"></i>
+                        <h4>{{ item.title }}</h4><hr>
+                        {{ content }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

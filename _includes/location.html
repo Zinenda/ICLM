@@ -1,0 +1,22 @@
+<section class="section">
+    <div class="container center">
+        <i class="fa-5x fas fa-map-marker"></i>
+        <h3>Locations</h3><hr>
+        <div class="row">
+            <div class="col s12 l6">
+                {% for item in site.locations %}
+                    <h5>{{ item.province }}</h5>
+                    <p class="light">
+                        <em>{{ item.location }}</em>
+                    </p>
+                {% endfor %}
+            </div>
+
+            <div class="col s12 l6">
+                <div class="video-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1355.0338039314615!2d33.6158425816154!3d-16.13723773720094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x192647df59b5446f%3A0x2147eafcff20afd8!2sInstitutos+Industrial+do+Matundo!5e0!3m2!1spt-PT!2smz!4v1517758904058" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

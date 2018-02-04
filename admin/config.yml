@@ -64,4 +64,4 @@ collections:
     create: true
     fields:
       - {label: "Province", name: "province", widget: "string"}
-      - {label: "Localion", name: "location", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}

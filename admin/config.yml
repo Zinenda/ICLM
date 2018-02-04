@@ -1,0 +1,53 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - client
+  branch: master
+
+media_folder: "assets/img/uploads"
+  
+collections:
+  - label: "About"
+    name: "about"
+    folder: "_about"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Icon", name: "icon", widget: "string"}
+      - {label: "Description" name: "description", widget: "markdown"}
+
+  - label: "Services"
+    name: "services"
+    folder: "_services"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Icon", name: "icon", widget: "string"}
+      - {label: "Description" name: "description", widget: "markdown"}
+
+  - label: "Partners"
+    name: "partners"
+    folder: "_partners"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description" name: "description", widget: "markdown"}
+
+  - label: "Clients"
+    name: "clients"
+    folder: "_clients"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description" name: "description", widget: "markdown"}
+
+  - label: "Slider"
+    name: "slider"
+    folder: "_slider"
+    create: true
+    fields:
+      - {label: "Tema", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}

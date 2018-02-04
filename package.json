@@ -4,5 +4,8 @@
   "description": "Imperial Crown Logistics Mozambique",
   "main": "index.js",
   "author": "Ivo Zinenda <izinenda@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "next"
+  }
 }

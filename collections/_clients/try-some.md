@@ -1,5 +1,5 @@
 ---
-title: Try Some
+title: Trysome Auto-Electrical (PTY) LTD
 image: /assets/img/uploads/trysome.png
 description: >-
   [Trysome Auto-Electrical (PTY) LTD](http://www.trysome.co.za), is the largest,

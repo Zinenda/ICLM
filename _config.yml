@@ -49,4 +49,13 @@ sass:
 
 logo: 
 image: /assets/img/logo.svg 
-color: 
+color: "0078C0"
+
+collections_dir: collections
+collections:
+  slider:
+  about:
+  services:
+  partners:
+  clients:
+  opinions:

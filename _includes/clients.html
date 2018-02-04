@@ -1,6 +1,6 @@
 <section id="clients" class="section scrollspy">
     <section class="container center">
-        <i class="fa-5x far fa-user-circle"></i>
+        <i class="fa-5x far fa-user-circle primary-color-text"></i>
         <h3>Top Clients</h3><hr>
         <div class="row">
             {% for item in site.clients %}
@@ -11,7 +11,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title">{{ item.title }}</span>
-                            <p class="light">{{ content }}</p>
+                            <p>{{ item.description }}</p>
                         </div>
                     </div>
                 </div>

@@ -4,6 +4,8 @@ $(document).ready(function(){
     $('.tabs').tabs({
         swipeable: true
     });
+    $('.materialboxed').materialbox();
+    $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider({
         height: 600
     });

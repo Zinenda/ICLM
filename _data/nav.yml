@@ -2,7 +2,7 @@
   title: Home
   icon: home
 
-- link: "#about
+- link: "#about"
   title: About
   icon: info
 
@@ -10,14 +10,14 @@
   title: Services
   icon: briefcase
 
+- link: "#clients"
+  title: Clients
+  icon: user
+
 - link: "#partners"
   title: Partners
   icon: users
 
-- link: "#clients"
-  title: Clients
-  icon: users
-
-- link: "#opinions"
-  title: Opinions
-  icon: comment-alt
+- link: "#locations"
+  title: Locations
+  icon: map-marker

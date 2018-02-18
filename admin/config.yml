@@ -55,7 +55,7 @@ collections:
     folder: "collections/_slider"
     create: true
     widget: "list"
-    field:
+    fields:
       - {label: Imagem, name: image, widget: "image"} 
 
   - label: "Locations"
@@ -63,5 +63,5 @@ collections:
     folder: "collections/_locations"
     create: true
     fields:
-      - {label: "Province", name: "province", widget: "string"}
-      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Province", name: "province", widget: "text"}
+      - {label: "Location", name: "location", widget: "text"}

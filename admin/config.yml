@@ -54,9 +54,9 @@ collections:
     name: "slider"
     folder: "collections/_slider"
     create: true
-    fields:
-      - {label: "Tema", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
+    widget: "list"
+    field:
+      - {label: Imagem, name: image, widget: "image"} 
 
   - label: "Locations"
     name: "locations"

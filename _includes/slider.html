@@ -1,12 +1,15 @@
-<header class="slider">
+<header class="slider hide-on-small-only">
     <ul class="slides">
-        {% for item in site.slider limit: 3 %}
+        {% for item in site.slider limit: 4 %}
             <li>
                 <img src="{{ item.image }}" alt="{{ item.title }}">
-                <div class="caption center-align">
-                    <h4 class="white-text" style="text-shadow: 2px -2px #444;">{{ item.title }}</h4>
-                </div>
             </li>
         {% endfor %}
     </ul>
+</header>
+
+<header class="hide-on-med-and-up">
+    {% for item in site.slider limit: 1 %}
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+    {% endfor %}
 </header>

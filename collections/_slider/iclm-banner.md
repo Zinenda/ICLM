@@ -1,5 +1,5 @@
 ---
-title: ICLM Banner
+title: Banner
 image: /assets/img/uploads/banner.jpg
 ---
 

@@ -47,9 +47,9 @@ sass:
   sass_dir: assets/_sass
   style: compressed
 
-logo: 
-image: /assets/img/logo.svg 
-color: "0078C0"
+logo: /assets/img/logo.svg
+image: /assets/img/logotipo.svg 
+color: "#0078C0"
 
 collections_dir: collections
 collections:
@@ -59,3 +59,4 @@ collections:
   partners:
   clients:
   opinions:
+  portfolio:

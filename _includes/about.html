@@ -1,6 +1,6 @@
-<section id="about" class="section scrollspy">
+<section id="about" class="section scrollspy primary-color-text">
     <div class="container center">
-        <i class="fa-5x fas fa-info-circle primary-color-text"></i>
+        <i class="fa-5x fas fa-info-circle"></i>
         <h3>About Us</h3><hr>
 
         <div class="row">
@@ -17,7 +17,7 @@
             {% for item in site.about %}
                 <div id="{{ item.title | downcase }}" class="col s12">
                     <div class="container">
-                        <i class="fa-3x fas fa-{{ item.icon }} primary-color-text"></i>
+                        <i class="fa-3x fas fa-{{ item.icon }}"></i>
                         <h4>{{ item.title }}</h4>
                         <p>{{ item.description }}</p>
                     </div>

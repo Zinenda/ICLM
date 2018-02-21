@@ -1,16 +1,16 @@
-<section id="clients" class="section scrollspy">
+<section id="clients" class="section scrollspy primary-color-text">
     <section class="container center">
-        <i class="fa-5x far fa-user-circle primary-color-text"></i>
+        <i class="fa-5x fas fa-user"></i>
         <h3>Top Clients</h3><hr>
         <div class="row">
             {% for item in site.clients %}
                 <div class="col s12 l4">
-                    <div class="card small hoverable">
+                    <div class="card small hoverable grey-text text-darken-4">
                         <div class="card-image">
                             <img src="{{ item.image }}" alt="{{ item.title }}">
                         </div>
                         <div class="card-content">
-                            <h4>{{ item.title }}</h4>
+                            <h5>{{ item.title }}</h5>
                         </div>
                         <div class="card-action">
                             <button class="activator btn waves-effec waves-light">Get to Know</button>

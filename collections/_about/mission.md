@@ -12,11 +12,12 @@ description: >-
   of all our working systems.
 
 
-  * \- To adhere to legislative labour laws of the macro environments that we
-  operate in.
+  To adhere to legislative labour laws of the macro environments that we operate
+  in.
 
-  * \- To provide a working environment that is safe and without risk to the
-  health and safety of employees. 
+
+  To provide a working environment that is safe and without risk to the health
+  and safety of employees. 
 
 
   To Our Communities - To be a true community citizen that goes an extra mile

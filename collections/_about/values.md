@@ -2,15 +2,28 @@
 title: Values
 icon: handshake
 description: >-
-  We focus on efficiency, quality, service delivery and perfomance that will
-  earn the respect and loyalty of our Customers
+  To create a long term business relationship with our clients through:
 
 
-  We always strive to provide exceptional value to our Customers, without
-  compromising our ethics or integrity in the pursuit of profit
+  Safety - We do not compromise the health or safety of our employees.
 
 
-  To provide you, our Customers with a world class freight and logistics
-  solution that is second to none
+  Integrity - We deliver diligently on our promises.
+
+
+  Respect - Our decisions and actions are motivated by fairness, trust,
+  cooperation and involvement. 
+
+
+  Sustainable Development - We consider the impact of our activities on the
+  environment and local communities in everything we do. 
+
+
+  Continuous Improvement - We always look to improve on our way of conducting
+  projects and put our capabilities to trial.
+
+
+  Superior Performance - Through working together as a team we aim to achieve
+  excellent results.
 ---
 

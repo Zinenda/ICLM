@@ -2,7 +2,8 @@
 title: Vision
 icon: eye
 description: >-
-  To be a leader in logistics solutions and recognized for its excellence,
-  safety, innovation and value creation
+  To serve a significant market share in Africa by 2020 and be the most
+  effective sourcing and procurement service provider for mines, construction
+  industry and global supply chain.
 ---
 

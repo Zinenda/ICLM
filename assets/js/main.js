@@ -11,6 +11,7 @@ $(document).ready(function(){
     });
     $('.modal').modal();
     $('.tooltipped').tooltip();
+    $('.collapsible').collapsible();
 
     var $container = $('#masonry-grid');
     // initialize

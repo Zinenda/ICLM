@@ -1,27 +1,20 @@
-<section id="partners" class="section scrollspy primary-color-light">
-    <section class="container center">
-        <i class="fa-5x far fa-user-circle white-text"></i>
-        <h3 class="white-text">Partners</h3><hr>
-        <div class="row">
-            {% for item in site.partners %}
-                <div class="col s12 l4">
-                    <div class="card small hoverable">
-                        <div class="card-image">
-                            <img src="{{ item.image }}" alt="{{ item.title }}">
+<div id="partners" class="modal primary-color">
+    <div class="modal-content">
+        <div class="container">
+            <h4 class="center-align white-text">
+                <i class="fas fa-users"></i>
+                Partners
+            </h4>
+            <ul class="collapsible popout">
+                {% for item in site.partners %}
+                    <li>
+                        <div class="collapsible-header">{{ item.title }}</div>
+                        <div class="collapsible-body">
+                            <span class="white-text">{{ item.description | markdownify }}</span>
                         </div>
-                        <div class="card-content">
-                            <h5>{{ item.title }}</h5>
-                        </div>
-                        <div class="card-action">
-                            <button class="activator btn waves-effec waves-light white-text">Get to Know</button>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title">{{ item.title }} <i class="far fa-times-circle right"></i></span><hr>
-                            <p>{{ item.description | markdownify }}</p>
-                        </div>
-                    </div>
-                </div>
-            {% endfor %}
+                    </li>
+                {% endfor %}
+            </ul>
         </div>
-    </section>
-</section>
+    </div>
+</div>

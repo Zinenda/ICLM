@@ -1,11 +1,27 @@
 <section id="about" class="section scrollspy">
     <div class="container center">        
-        {% for item in site.about limit: 1 %}
-            <h3><i class="fas fa-{{ item.icon }}"></i>{{ item.title }}</h3>
-            <p class="justified">{{ item.content }}</p>
-        {% endfor %}
+        <article>
+            {% for item in site.about limit: 1 %}
+                <div class="container">
+                    <h3><i class="fas fa-{{ item.icon }}"></i>{{ item.title }}</h3>
+                    <p class="flow-text">{{ item.content }}</p>
+                </div>
+            {% endfor %}
+        </article>
 
-        <a href="#aboutModal" class="btn waves-effect waves-light modal-trigger">More</a>
+        <div class="row">
+            {% for item in site.about %}
+                {% unless forloop.first %}
+                    <a 
+                        href="#{{ item.title | downcase }}" 
+                        class="modal-trigger btn-large waves-effect waves-light tooltipped" 
+                        data-position="bottom" 
+                        data-tooltip="{{ item.title }}" >
+                        <i class="fas fa-{{ item.icon }}"></i> {{ item.title }}
+                    </a>
+                {% endunless %}
+            {% endfor %}
+        </div>
     </div>
 </section>
 
@@ -17,8 +33,12 @@
         background-position: center;
         background-repeat: no-repeat;
         
-        height: 50vh;
         color: #fff;
         text-shadow: -2px 2px #444;
+
+    }
+
+    #about article {
+        background-color: rgba(0, 186, 252, .5);
     }
 </style>

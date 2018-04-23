@@ -17,6 +17,7 @@
 - link: "#partners"
   title: Partners
   icon: users
+  hightlight: true
 
 - link: "#locations"
   title: Locations

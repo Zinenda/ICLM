@@ -9,6 +9,7 @@ $(document).ready(function(){
     $('.slider').slider({
         height: 720
     });
+    $('.modal').modal();
     $('.tooltipped').tooltip();
 
     var $container = $('#masonry-grid');

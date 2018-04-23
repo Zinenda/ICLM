@@ -1,0 +1,28 @@
+<div id="aboutModal" class="modal">
+    <div class="modal-content">
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+                    {% for item in site.about %}
+                        {% unless forloop.first %}
+                            <li class="tab col s3">
+                                <a href="#{{ item.title | downcase }}">{{ item.title }}</a>
+                            </li>
+                        {% endunless %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            {% for item in site.about %}
+                <div id="{{ item.title | downcase }}" class="col s12">
+                    <div class="container">
+                        {% unless forloop.first %}
+                            <h4><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</h4>
+                            <p>{{ item.content }}</p>
+                        {% endunless %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -17,8 +17,8 @@ collections:
       - label: "Icon"
         name: "icon"
         widget: "select"
-        options: ["eye", "tasks", "handshake"]
-      - {label: "Description", name: "description", widget: "markdown"}
+        options: ["info-circle", "eye", "tasks", "handshake"]
+      - {label: "Corpo", name: "body", widget: "markdown"}
 
   - label: "Services"
     name: "services"

@@ -1,4 +1,4 @@
-<aside id="sideNav" class="sidenav sidenav-fixed primary-color-light">
+<aside id="sideNav" class="sidenav">
     <div class="container">
         <a href="/">
             <img src="{{ site.image }}" alt="{{ site.title }}">
@@ -6,6 +6,12 @@
     </div>
     <div class="divider"></div>
     <ul>
-        {% include nav.html %}
+        {% for item in site.data.nav %}
+            <li>
+                <a href="{{ item.link }}" title="{{ item.title }}" class="waves-effect waves-primary primary-color-text">
+                    <i class="fas fa-{{ item.icon }} primary-color-text"></i> {{ item.title }}
+                </a>
+            </li>
+        {% endfor %}
     </ul>
 </aside>

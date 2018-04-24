@@ -1,5 +1,5 @@
 ---
 title: Air Freight
-image: /assets/img/uploads/air-freight.jpg
+image: /assets/img/uploads/air-freight.png
 ---
 

@@ -6,12 +6,6 @@
     </div>
     <div class="divider"></div>
     <ul>
-        {% for item in site.data.nav %}
-            <li>
-                <a href="{{ item.link }}" title="{{ item.title }}" class="waves-effect waves-primary primary-color-text">
-                    <i class="fas fa-{{ item.icon }} primary-color-text"></i> {{ item.title }}
-                </a>
-            </li>
-        {% endfor %}
+        {% include nav.html %}
     </ul>
 </aside>

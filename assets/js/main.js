@@ -7,7 +7,8 @@ $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider({
-        height: 720
+        height: 720,
+        indicators: false
     });
     $('.modal').modal();
     $('.tooltipped').tooltip();

@@ -5,7 +5,11 @@
         <section class="row">
             {% for item in site.services %}
                 <div class="col s12 l3">
-                    <a href="#{{ item.title | downcase }}" class="modal-trigger white-text">
+                    <a href="#{{ item.title | downcase }}" 
+                        class="modal-trigger white-text tooltipped" 
+                        data-position="top" 
+                        data-delay="50" 
+                        data-tooltip="View More">
                         <p class="flow-text bold">
                             <i class="fas fa-{{ item.icon }}"></i>
                             <br>

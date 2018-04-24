@@ -213,7 +213,7 @@ $navbar-brand-font-size: 2.1rem !default;
 // ==========================================================================
 
 $sidenav-font-size: 14px !default;
-$sidenav-font-color: rgba(0,0,0,.87) !default;
+$sidenav-font-color: $primary-color !default;
 $sidenav-bg-color: #fff !default;
 $sidenav-padding: 16px !default;
 $sidenav-item-height: 48px !default;
@@ -225,7 +225,7 @@ $sidenav-line-height: $sidenav-item-height !default;
 
 $slider-bg-color: color('grey', 'base') !default;
 $slider-bg-color-light: color('grey', 'lighten-2') !default;
-$slider-indicator-color: color('green', 'base') !default;
+$slider-indicator-color: $primary-color-dark !default;
 
 
 // 16. Spinners | Loaders

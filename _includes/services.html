@@ -1,13 +1,17 @@
-<section id="services" class="section primary-color-light white-text scrollspy">
-    <section class="container center">
-        <h3><i class="fas fa-briefcase"></i> Services</h3><hr>
+<section id="services" class="section primary-color-light white-text scrollspy center-align">
+    <section class="container">
+        <h3><i class="fas fa-briefcase"></i> Services</h3>
 
         <section class="row">
             {% for item in site.services %}
-                <div class="col s12 l4">
-                    <i class="fa-3x fas fa-{{ item.icon }} white-text"></i>
-                    <h4>{{ item.title }}</h4><hr>
-                    <p>{{ item.description }}</p>
+                <div class="col s12 l3">
+                    <a href="#{{ item.title | downcase }}" class="modal-trigger white-text">
+                        <p class="flow-text bold">
+                            <i class="fas fa-{{ item.icon }}"></i>
+                            <br>
+                            <strong>{{ item.title }}</strong>
+                        </p>
+                    </a>
                 </div>
             {% endfor %}
         </section>

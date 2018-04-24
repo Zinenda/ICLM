@@ -1,13 +1,13 @@
 ---
 title: Sea Freight
 icon: ship
-description: |-
-  Imports & Exports to all destinations
-
-  Relationships & Accounts with all shipping lines
-
-  LCL & FCL Consolidations/Break Bulk/Out of Gauge Cargo
-
-  Clearing & Forwarding of all Sea shipments
 ---
 
+
+Imports & Exports to all destinations
+
+Relationships & Accounts with all shipping lines
+
+LCL & FCL Consolidations/Break Bulk/Out of Gauge Cargo
+
+Clearing & Forwarding of all Sea shipments

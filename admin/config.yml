@@ -29,8 +29,8 @@ collections:
       - label: "Icon"
         name: "icon"
         widget: "select"
-        options: ["ship", "plane", "truck"]
-      - {label: "Description", name: "description", widget: "markdown"}
+        options: ["ship", "plane", "truck", "recycle"]
+      - {label: "Corpo", name: "body", widget: "markdown"}
 
   - label: "Partners"
     name: "partners"

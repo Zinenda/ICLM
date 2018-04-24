@@ -1,0 +1,14 @@
+{% for item in site.services %}
+    <div id="{{ item.title | downcase }}" class="modal primary-color-light">
+        <div class="modal-content white-text center-align">
+            <div class="container">
+                <p class="flow-text bold">
+                    <i class="fas fa-{{ item.icon }}"></i>
+                    {{ item.title }}
+                </p>
+
+                {{ item.content }}
+            </div>
+        </div>
+    </div>
+{% endfor %}

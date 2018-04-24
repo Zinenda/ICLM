@@ -2,18 +2,16 @@
 title: Air Freight
 icon: plane
 description: |-
-  Imports & Exports to all Destinations
+  **Imports & Exports to all Destinations.**
 
-  Import & Export documentations preparation for Air Fright
+  **Import & Export documentations preparation for Air Freight Cargo.**
 
-  Cargo
+  **Accounts with all major Airlines.**
 
-  Accounts with all major Airlines
+  **Air Charters - Projects Freight.**
 
-  Air Charters - Projects Freight
+  **Clearing & Forwarding of all Air Shiipments.**
 
-  Clearing & Forwarding of all Air Shiipments
-
-  Daily Tracking of Shipments
+  **Daily tracking report of Shipments.**
 ---
 

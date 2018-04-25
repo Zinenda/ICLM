@@ -1,6 +1,6 @@
 ---
 title: Support
-icon: ship
+icon: phone-square
 ---
 Lorem ipsum dolor sit amet consectetur adipisicing elit.
 

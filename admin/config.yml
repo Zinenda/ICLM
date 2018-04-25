@@ -26,10 +26,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - label: "Icon"
-        name: "icon"
-        widget: "select"
-        options: ["ship", "plane", "truck", "recycle"]
+      - {label: "Icons", name: "icon", widget: "string"}
       - {label: "Corpo", name: "body", widget: "markdown"}
 
   - label: "Partners"

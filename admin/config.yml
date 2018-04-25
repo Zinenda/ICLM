@@ -60,5 +60,5 @@ collections:
     folder: "collections/_locations"
     create: true
     fields:
-      - {label: "Province", name: "province", widget: "text"}
-      - {label: "Location", name: "location", widget: "text"}
+      - {label: "Province", name: "province", widget: "markdown"}
+      - {label: "Location", name: "location", widget: "markdown"}

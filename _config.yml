@@ -22,8 +22,6 @@ url: "https://imperialcrownlogistics.com" # the base hostname & protocol for you
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
   - jekyll-email-protect
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -53,7 +51,7 @@ color: "#0078C0"
 
 collections_dir: collections
 collections:
-  slider:
+  header:
   about:
   services:
   partners:

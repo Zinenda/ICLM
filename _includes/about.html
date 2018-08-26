@@ -1,12 +1,23 @@
 <section id="about" class="section scrollspy">
     <div class="container center">        
         <article>
-            {% for item in site.about limit: 1 %}
-                <div class="container">
-                    <h3><i class="fas fa-{{ item.icon }}"></i>{{ item.title }}</h3>
-                    <p class="flow-text">{{ item.content }}</p>
-                </div>
-            {% endfor %}
+            <div class="hide-on-small-only">
+                {% for item in site.about limit: 1 %}
+                    <div class="container">
+                        <h3><i class="fas fa-{{ item.icon }}"></i>{{ item.title }}</h3>
+                        <p class="flow-text">{{ item.content }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="hide-on-med-and-up">
+                A Logistics and transport company for medium to large scale of commodities 
+                as well as customs clearance service, 
+                we specialise ourselves in outsourcing and procurement.
+                We regard ourselves as one of the best supplier of Logistics and transport 
+                in the southern region of Africa by adding more values to clients vision and works through providing 
+                quality technical advices, updates on technical information at no cost.
+            </div>
         </article>
 
         <div class="row">

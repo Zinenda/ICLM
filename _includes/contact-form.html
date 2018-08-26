@@ -1,25 +1,57 @@
-<div class="row">
-    <form method="POST" action="https://formspree.io/{{ site.email }}" class="col s12">
-        <div class="row">
-            <div class="input-field col s12">
-                <input id="full_name" name="Full Name" type="text" class="validate">
-                <label for="full_name">Full Name</label>
+<div id="contacts" class="modal">
+    <div class="modal-content container center">
+        <h4>Contact Us</h4>
+        <form name="contact" method="POST" netlify class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="full_name" name="Full Name" type="text" class="validate">
+                    <label for="full_name">Full Name</label>
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="input-field col s12">
-                <input id="email" type="email" name="Email" class="validate">
-                <label for="email">Email</label>
-            </div>
-        </div>                
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" name="Email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>                
 
-        <div class="row">
-            <div class="input-field col s12">
-                <textarea id="textarea1" name="Messange" class="materialize-textarea" length="500"></textarea>
-                <label for="textarea1">Mensage</label>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="textarea1" name="Messange" class="materialize-textarea" length="500"></textarea>
+                    <label for="textarea1">Mensage</label>
+                </div>
             </div>
-        </div>
-        <div class="center"><button type="submit" name="submit" class="btn waves-effect waves-light">Send</button></div>
-    </form>
+            <div class="center">
+                <button type="submit" name="submit" class="btn waves-effect waves-light">Send <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </form>
+        <br>
+        <a 
+            href="mailto:{{ site.email }}"
+            class="btn-floating waves-effect waves-light tooltipped"
+            data-position="bottom"
+            data-delay="50"
+            data-tooltip="{{ site.email }}">
+            <i class="fas fa-envelope-open"></i>
+        </a>
+
+        <a 
+            href="tel:+21 084 017"
+            class="btn-floating waves-effect waves-light tooltipped"
+            data-position="bottom"
+            data-delay="50"
+            data-tooltip="+21 084 017">
+            <i class="fas fa-phone"></i>
+        </a>
+
+        <a 
+            href="tel:+258 84 380 8268"
+            class="btn-floating waves-effect waves-light tooltipped"
+            data-position="bottom"
+            data-delay="50"
+            data-tooltip="+258 84 380 8268">
+            <i class="fas fa-mobile-alt"></i>
+        </a>
+    </div>
 </div>

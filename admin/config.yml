@@ -8,6 +8,15 @@ backend:
 media_folder: "assets/img/uploads"
   
 collections:
+  - label: "Page Header"
+    name: "header"
+    folder: "collections/_header"
+    create: true
+    fields:
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Imagem", name: "image", widget: "image"}
+
+
   - label: "About"
     name: "about"
     folder: "collections/_about"
@@ -46,14 +55,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Description", name: "description", widget: "markdown"}
-
-  - label: "Slider"
-    name: "slider"
-    folder: "collections/_slider"
-    create: true
-    fields:
-      - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Imagem", name: "image", widget: "image"}
 
   - label: "Locations"
     name: "locations"

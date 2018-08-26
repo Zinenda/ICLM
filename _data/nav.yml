@@ -1,7 +1,3 @@
-- link: /
-  title: Home
-  icon: home
-
 - link: "#about"
   title: About
   icon: info

@@ -1,0 +1,17 @@
+<nav class="extended-navbar white">
+    <div class="nav-wrapper primary-color-text">
+        <div class="container">
+            <a href="/" class="brand-logo" title="{{ site.description }}">
+                <img src="{{ site.image }}" alt="{{ site.description }}" width="160">
+            </a>
+
+            <a href="#" data-target="sideNav" class="sidenav-trigger">
+                <i class="fas fa-bars"></i>
+            </a>
+    
+            <ul class="right hide-on-small-only">
+                {% include nav/nav.html %}
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,10 +1,10 @@
-- link: "#about"
-  title: About
-  icon: info
-
 - link: "#services"
   title: Services
   icon: briefcase
+
+- link: "#about"
+  title: About
+  icon: info
 
 - link: "#clients"
   title: Clients
@@ -12,9 +12,13 @@
 
 - link: "#partners"
   title: Partners
-  icon: users
+  icon: user-friends
   hightlight: true
 
-- link: "#locations"
-  title: Locations
-  icon: map-marker
+- link: "#contacts"
+  title: Contacts
+  icon: envelope
+
+- link: "#team"
+  title: Team
+  icon: users

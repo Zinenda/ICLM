@@ -1,0 +1,19 @@
+<section id="team" class="section scrollspy">
+    <div class="container">
+        <h4 class="bolder primary-color-text center-align">Our Team</h4>
+
+        {% for item in site.team %}
+            <div class="col s12 l4">
+                <div class="card small primary-color center white-text">
+                    <div class="card-image">
+                        <img src="{{ item.image }}" alt="{{ item.name }}" data-caption="{{ item.title }}" class="materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title bolder">{{ item.name }}</span>
+                        <span class="thin">{{ item.title }}</span>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

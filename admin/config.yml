@@ -3,31 +3,9 @@ backend:
   accept_roles:
     - admin
     - client
-  branch: master
+  branch: v2019
 
 media_folder: "assets/img/uploads"
-  
-collections:
-  - label: "Page Header"
-    name: "header"
-    folder: "collections/_header"
-    create: true
-    fields:
-      - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Imagem", name: "image", widget: "image"}
-
-
-  - label: "About"
-    name: "about"
-    folder: "collections/_about"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - label: "Icon"
-        name: "icon"
-        widget: "select"
-        options: ["info-circle", "eye", "tasks", "handshake"]
-      - {label: "Corpo", name: "body", widget: "markdown"}
 
   - label: "Services"
     name: "services"
@@ -38,18 +16,26 @@ collections:
       - {label: "Icons", name: "icon", widget: "string"}
       - {label: "Corpo", name: "body", widget: "markdown"}
 
-  - label: "Partners"
-    name: "partners"
-    folder: "collections/_partners"
+  - label: "About"
+    name: "about"
+    folder: "collections/_about"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Corpo", name: "body", widget: "markdown"}
+
+  - label: "Clients"
+    name: "clients"
+    folder: "collections/_clients"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Description", name: "description", widget: "markdown"}
 
-  - label: "Clients"
-    name: "clients"
-    folder: "collections/_clients"
+  - label: "Partners"
+    name: "partners"
+    folder: "collections/_partners"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -63,3 +49,12 @@ collections:
     fields:
       - {label: "Province", name: "province", widget: "markdown"}
       - {label: "Location", name: "location", widget: "markdown"}
+
+- label: "Tean"
+    name: "team"
+    folder: "collections/_team"
+    create: true
+    fields:
+       - {label: "Image", name: "image", widget: "image"}
+       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}

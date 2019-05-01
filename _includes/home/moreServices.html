@@ -1,0 +1,21 @@
+<div id="moreServices" class="modal">
+    <section class="row">
+        <div class="modal-content">
+            <div class="container">
+                {% for item in site.services offset: 6 %}
+                    <div class="col s12">
+                        <div class="card-panel hoverable" style="height: 30vh">
+                            <div class="container">
+                                <p class="bolder primary-color-text"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</p>
+                                <div class="justify light">
+                                    {{ item.content | truncatewords: 10 }}
+                                </div>
+                                <a href="#services{{ forloop.index }}" class="secondary-color-text modal-trigger">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>

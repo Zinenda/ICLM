@@ -1,0 +1,12 @@
+{% for item in site.services %}
+    <div id="services{{ forloop.index }}" class="modal">
+        <div class="modal-content">
+            <div class="container">
+                <p class="bolder primary-color-text">{{ item.title }}</p>
+                <div class="justify light grey-text text-darken-4">
+                    {{ item.content }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

@@ -5,35 +5,35 @@ icon: handshake
 
 **To create a long term business relationship with our clients through:**
 
-##### Safety
+__Safety__
 
 We do not compromise the health or safety of our employees.
 
 
-##### Integrity
+__Integrity__
 
 We deliver diligently on our promises.
 
 
-##### Respect
+__Respect__
 
 Our decisions and actions are motivated by fairness, trust,
 cooperation and involvement. 
 
 
-##### Sustainable Development
+__Sustainable Development__
 
 We consider the impact of our activities on the
 environment and local communities in everything we do. 
 
 
-##### Continuous Improvement
+__Continuous Improvement__
 
 We always look to improve on our way of conducting
 projects and put our capabilities to trial.
 
 
-##### Superior Performance
+__Superior Performance__
 
 Through working together as a team we aim to achieve
 excellent results.

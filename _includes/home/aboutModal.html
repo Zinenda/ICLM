@@ -1,0 +1,16 @@
+<div id="moreAbout" class="modal">
+    <div class="modal-content container">
+        <ul class="collapsible">
+            {% for item in site.about offset: 1 %}
+                <li>
+                    <div class="collapsible-header bolder primary-color-text">
+                        {{ item.title }}
+                    </div>
+                    <div class="collapsible-body justify light grey-text text-darken-4">
+                        {{ item.content }}
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

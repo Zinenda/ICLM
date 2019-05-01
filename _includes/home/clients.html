@@ -1,0 +1,11 @@
+<section id="clients" class="section scrollspy">
+    <h4 class="center-align bolder primary-color-text">Top Clients</h4>
+
+    <div class="row slick-clientes">
+        {% for item in site.clients %}
+            <div>
+                <img src="{{ item.image }}" alt="{{ item.company }}" style="width: 80%;-webkit-filter: greyscale(100%); filter: greyscale(100%);">
+            </div>
+        {% endfor %}
+    </div>
+</section>

@@ -2,8 +2,8 @@
 title: Support
 icon: phone-square
 ---
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
+CT 412 has internal resources and manufacturers whom we represent. We provide our client with direct access to manufacture’s technical support.
 
+All our products come with back to back guarantees and warranty programmes. We make regular visits to the sites with the manufactures to provide maximum product support.
 
-
-Error quod, ad necessitatibus temporibus nemo labore est pariatur ipsam doloribus expedita porro vero assumenda cum animi velit eligendi iure aperiam quae!
+We are dedicated to customer satisfaction and will visit all locations on a regular basis to ensure product support is in place.

@@ -1,7 +1,7 @@
-<div id="moreAbout" class="modal bottom-sheet">
+<div id="moreAbout" class="modal">
     <div class="modal-content container">
-        <ul class="collapsible">
-            {% for item in site.about offset: 1 %}
+        <ul class="collapsible popout">
+            {% for item in site.about %}
                 <li>
                     <div class="collapsible-header bolder primary-color-text">
                         {{ item.title }}

@@ -1,16 +1,14 @@
-<div id="partners" class="modal primary-color">
+<div id="partners" class="modal">
     <div class="modal-content">
         <div class="container">
-            <h5 class="center-align white-text">
-                <i class="fas fa-users"></i>
-                Partners
-            </h5>
+            <h5 class="text-title primary-color-text">Our Partners</h5>
+            
             <ul class="collapsible popout">
                 {% for item in site.partners %}
                     <li>
                         <div class="collapsible-header">{{ item.title }}</div>
                         <div class="collapsible-body">
-                            <span class="white-text">{{ item.description | markdownify }}</span>
+                            {{ item.content }}
                         </div>
                     </li>
                 {% endfor %}

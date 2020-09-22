@@ -1,18 +1,18 @@
-<section id="about" class="section scrollspy grey lighten-4">
-    <div class="row">
-        <div class="col s12 l6">
-            <div class="container">
-                <h4 class="bolder primary-color-text">About Us</h4>
-
+<section id="about" class="section no-pad scrollspy grey lighten-4">
+    <div class="container">
+        <div class="section-grid">
+            <div>
+                <h4 class="text-title primary-color-text">About Us</h4>
+    
                 {% for item in site.about limit: 1 %}
                     <div class="justify light">
-                        {{ item.content }}
+                        {{ item.content | truncatewords: 60 }}
                     </div>
                 {% endfor %}
-            </div>
-        </div>
 
-        <div class="col s12 l6">
+                <a href="#moreAbout" class="modal-trigger waves-effect waves-primary">Read More</a>
+            </div>
+    
             <div class="slider">
                 <ul class="slides">
                     <li><img src="/assets/img/uploads/road-freight.png" alt=""></li>
@@ -22,10 +22,6 @@
             </div>
         </div>
     </div>
-
-    <div class="center">
-        <a href="#moreAbout" class="btn modal-trigger waves-effect waves-light">Read More</a>
-    </div>
-
-    {% include home/aboutModal.html %}
 </section>
+
+{% include home/aboutModal.html %}

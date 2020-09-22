@@ -1,6 +1,5 @@
 ---
 title: Road Freight
-icon: truck
 ---
 
 Multi Capacity Fleet of 1 tonne - 34 tonne vehicles

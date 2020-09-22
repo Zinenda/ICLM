@@ -1,29 +1,47 @@
 <section id="services" class="section scrollspy">
     <section class="container">
-        <h4 class="bolder primary-color-text center-align">Our Services</h4>
 
-        <section class="row">
-            {% for item in site.services limit: 6 %}
-                <div class="col s12 l4">
-                    <div class="card-panel hoverable" style="height: 30vh">
-                        <div class="container">
-                            <p class="bolder primary-color-text"><i class="fas fa-{{ item.icon }}"></i> {{ item.title }}</p>
-                            <div class="justify light">
-                                {{ item.content | truncatewords: 10 }}
-                            </div>
-                            <a href="#services{{ forloop.index }}" class="secondary-color-text modal-trigger">Read More</a>
+        <h4 class="text-title primary-color-text">Our Services</h4>
+
+        <div class="glider-contain">
+            <div class="glider">
+                {% for item in site.services %}
+                    <div class="card" data-aos="zoom-in" data-aos-duration="3000" style="margin: 20px;">
+                        <div class="card-image">
+                            <img
+                                data-src="{{ item.image }}?nf_resize=fit&w=320"
+                                alt="{{ item.title }}"
+                                data-srcset="{{ item.image }}?nf_resize=fit&h=480 2x,
+                                {{ item.image }}?nf_resize=fit&h=720 3x,
+                                {{ item.image }}?nf_resize=fit&h=1080 4x"
+                                class="lazy">
+                        </div>
+
+                        <div class="card-content">
+                            <div class="center card-title text-title primary-color-text">{{ item.title }}</div>
+                            
+                            <article class="light">
+                                {{ item.content | truncatewords: 20 }}
+                            </article>
+                        </div>
+
+                        <div class="card-action center">
+                            <a href="#services{{ forloop.index }}" class="btn-flat waves-effect waves-primary modal-trigger">Saiba Mais</a>
                         </div>
                     </div>
-                </div>
-            {% endfor %}
-        </section>
+                {% endfor %}
+            </div>
 
-        {% include home/servicesModal.html %}
+            <button aria-label="Previous" class="glider-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
 
-        <div class="center">
-            <a href="#moreServices" title="More Services" class="modal-trigger btn waves-effect waves-light">More Services</a>
+            <button aria-label="Next" class="glider-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <div role="tablist" class="dots"></div>
         </div>
-
-        {% include home/moreServices.html %}
     </section>
+    {% include home/servicesModal.html %}
 </section>

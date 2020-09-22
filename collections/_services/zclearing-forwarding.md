@@ -1,6 +1,5 @@
 ---
 title: Clearing & Forwarding
-icon: recycle
 ---
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. 

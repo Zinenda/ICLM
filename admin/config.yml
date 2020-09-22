@@ -13,7 +13,7 @@ media_folder: "assets/img/uploads"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Icons", name: "icon", widget: "string"}
+      - {label: "Imagem", name: "image", widget: "string"}
       - {label: "Corpo", name: "body", widget: "markdown"}
 
   - label: "About"
@@ -50,7 +50,7 @@ media_folder: "assets/img/uploads"
       - {label: "Province", name: "province", widget: "markdown"}
       - {label: "Location", name: "location", widget: "markdown"}
 
-- label: "Tean"
+- label: "Team"
     name: "team"
     folder: "collections/_team"
     create: true

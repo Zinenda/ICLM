@@ -1,6 +1,5 @@
 ---
 title: Sea Freight
-icon: ship
 ---
 
 

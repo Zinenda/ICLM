@@ -1,8 +1,9 @@
 ---
 title: Account Tracking
-icon: location-arrow 
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
+We recognise that our customers need up to the minute information on their order status and delivery schedules. Our response has been to develop a bespoke account tracking system that will provide real time information as it becomes available to us.
 
-Error quod, ad necessitatibus temporibus nemo labore est pariatur ipsam doloribus expedita porro vero assumenda cum animi velit eligendi iure aperiam quae!
+We hope this will allow you to plan your budgets and schedules in addition to producing internal reports and records at your convenience.
+
+Registered users will be able to log in and review existing Quotes, Orders, Delivery Notes, and Invoices.

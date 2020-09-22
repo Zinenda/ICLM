@@ -1,19 +1,19 @@
-<div class="navbar-fixed">
-    <nav class="extended-navbar white">
-        <div class="nav-wrapper primary-color-text">
-            <div class="container">
-                <a href="/" class="brand-logo" title="{{ site.description }}">
-                    <img src="{{ site.image }}" alt="{{ site.description }}" width="160">
-                </a>
+<nav class="extended-navbar transparent">
+    <div class="nav-wrapper">
+        <div class="container">
+            <a href="/" class="brand-logo" title="{{ site.description }}">
+                {% include nav/logotipo.svg %}
+            </a>
 
-                <a href="#" data-target="sideNav" class="sidenav-trigger">
-                    <i class="fas fa-bars"></i>
-                </a>
-        
-                <ul class="right hide-on-small-only">
-                    {% include nav/nav.html %}
-                </ul>
-            </div>
+            <a href="#" data-target="sideNav" class="sidenav-trigger">
+                <i class="fas fa-lg fa-bars"></i>
+            </a>
+    
+            <ul class="right hide-on-small-only">
+                {% include nav/nav.html %}
+            </ul>
         </div>
-    </nav>
-</div>
+    </div>
+</nav>
+
+{% include nav/sidenav.html %}

@@ -7,31 +7,26 @@ url: "https://imperialcrownlogistics.com" # the base hostname & protocol for you
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-email-protect
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-sitemap
-  - jekyll-analytics
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+  - jekyll-paginate-v2
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
   - bower_components
+  - node_modules
+  - vendor
 
-# assets
+# Assets
 sass:
   sass_dir: assets/_sass
   style: compressed
 
+
 logo: /assets/img/logo.svg
-image: /assets/img/logotipo.svg 
+image: /assets/img/logotipo.svg
+
 color: "#0078C0"
 
 collections_dir: collections
@@ -43,3 +38,14 @@ collections:
   clients:
   opinions:
   portfolio:
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 20
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail: 
+    before: 2
+    after: 2

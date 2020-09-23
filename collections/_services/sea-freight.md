@@ -1,5 +1,6 @@
 ---
 title: Sea Freight
+image: /assets/img/uploads/SeaFreight.jpg
 ---
 
 

@@ -6,7 +6,7 @@
         <div class="glider-contain">
             <div class="glider">
                 {% for item in site.services %}
-                    <div class="card" data-aos="zoom-in" data-aos-duration="3000" style="margin: 20px;">
+                    <div class="card left-align" data-aos="zoom-in" data-aos-duration="3000" style="margin: 20px;">
                         <div class="card-image">
                             <img
                                 data-src="{{ item.image }}?nf_resize=fit&w=320"
@@ -18,15 +18,13 @@
                         </div>
 
                         <div class="card-content">
-                            <div class="center card-title text-title primary-color-text">{{ item.title }}</div>
+                            <h6 class="left-align primary-color-text">{{ item.title }}</h6>
                             
-                            <article class="light">
+                            <article class="light left-align">
                                 {{ item.content | truncatewords: 20 }}
+                                <br><br>
+                                <a href="#services{{ forloop.index }}" class="waves-effect waves-primary modal-trigger">Saiba Mais</a>
                             </article>
-                        </div>
-
-                        <div class="card-action center">
-                            <a href="#services{{ forloop.index }}" class="btn-flat waves-effect waves-primary modal-trigger">Saiba Mais</a>
                         </div>
                     </div>
                 {% endfor %}

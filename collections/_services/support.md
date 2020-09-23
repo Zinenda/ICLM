@@ -1,5 +1,6 @@
 ---
 title: Support
+image: /assets/img/uploads/support.jpg
 ---
 
 ICLM has internal resources and manufacturers whom we represent. We provide our client with direct access to manufacture’s technical support.

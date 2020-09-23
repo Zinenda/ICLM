@@ -1,5 +1,6 @@
 ---
 title: Pre-Inspection
+image: /assets/img/uploads/Pre-Inspection.jpg
 ---
 
 ICLM has the experience and attention to detail that ensures your goods are accurately catalogued, received and inspected prior to shipment. Inspecting the goods reduces the possibility of damaged or incorrect items being delivered to the site.

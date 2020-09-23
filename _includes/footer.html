@@ -1,4 +1,29 @@
-<footer class="page-footer primary-color-dark">
+<footer class="page-footer grey darken-4">
+    <div class="container">
+        <div class="section-grid">
+            <article>
+                <h4>{{ site.description }}</h4>
+            </article>
+
+            <article>
+                <h6>Services</h6>
+
+                <ul>
+                    {% for item in site.services %}
+                        <li>
+                            <a href="#services{{ forloop.index }}" class="modal-trigger white-text">{{ item.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </article>
+
+            <article>
+                <h6>Follow Us</h6>
+
+                {% include social.html %}
+            </article>
+        </div>
+    </div>
     <div class="footer-copyright">
         <div class="container center">
             &copy; {{ site.time | date: "%Y" }} All Rights Reserved | {{ site.title }} - {{ site.description }} | Designed by <a href="http://izitech.co" class="white-text" title="IZITech" target="_blank" rel="noopener noreferrer">IZITech</a>

@@ -31,13 +31,10 @@ color: "#0078C0"
 
 collections_dir: collections
 collections:
-  header:
   about:
   services:
-  partners:
   clients:
-  opinions:
-  portfolio:
+  gallery:
 
 # Pagination Settings
 pagination:

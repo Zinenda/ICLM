@@ -1,0 +1,25 @@
+---
+title: Gallery
+layout: default
+pagination:
+    enabled: true
+    collection: gallery
+---
+
+<section class="section">
+    <div class="container">
+        <ul class="section-grid">
+            {% for item in paginator.posts %}
+                <li>
+                    <img
+                        data-src="{{ item.image }}?nf_resize=fit&w=320"
+                        alt="{{ item.title }}"
+                        data-srcset="{{ item.image }}?nf_resize=fit&h=480 2x,
+                        {{ item.image }}?nf_resize=fit&h=720 3x,
+                        {{ item.image }}?nf_resize=fit&h=1080 4x"
+                        class="lazy">
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>

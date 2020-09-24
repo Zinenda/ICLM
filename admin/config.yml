@@ -5,16 +5,19 @@ backend:
     - client
   branch: v2019
 
+logo_url: 'https://izitech.co/assets/img/IZILogotipo.svg'
+
 media_folder: "assets/img/uploads"
 
+collections:
   - label: "Services"
     name: "services"
     folder: "collections/_services"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Imagem", name: "image", widget: "string"}
-      - {label: "Corpo", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
 
   - label: "About"
     name: "about"
@@ -22,7 +25,7 @@ media_folder: "assets/img/uploads"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Corpo", name: "body", widget: "markdown"}
+      - {label: "Content", name: "body", widget: "markdown"}
 
   - label: "Clients"
     name: "clients"
@@ -31,24 +34,14 @@ media_folder: "assets/img/uploads"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Description", name: "description", widget: "markdown"}
 
-  - label: "Partners"
-    name: "partners"
-    folder: "collections/_partners"
+  - label: "Gallery"
+    name: "gallery"
+    folder: "collections/_gallery"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Description", name: "description", widget: "markdown"}
-
-  - label: "Locations"
-    name: "locations"
-    folder: "collections/_locations"
-    create: true
-    fields:
-      - {label: "Province", name: "province", widget: "markdown"}
-      - {label: "Location", name: "location", widget: "markdown"}
 
 - label: "Team"
     name: "team"

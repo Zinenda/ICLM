@@ -9,6 +9,6 @@ Our Services 
 * Import and Export Customs Clearance Service and full set of documentation 
 * One-stop Clearance and Document Processing through JUE platform of customs clearance approved by MOZ Government.
 * We also arrange certificate of origin, SADC certificate for exonerate duties
-* International Trade/BankingDocumentation/Consultancy Service
+* International Trade/Banking Documentation/Consultancy Service
 * We guarantee to our clients a payment in advance based on contract agreement.
 * We are able to allocate our customs clearing Clerk at the client site to secure management of logistics and clearing processes.

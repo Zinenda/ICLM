@@ -35,6 +35,7 @@ collections:
   services:
   clients:
   gallery:
+  team:
 
 # Pagination Settings
 pagination:

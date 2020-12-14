@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  use_large_media_transforms_in_media_library: false
   accept_roles:
     - admin
     - client
@@ -43,11 +44,12 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
 
-- label: "Team"
+  - label: "Team"
     name: "team"
     folder: "collections/_team"
     create: true
     fields:
-       - {label: "Image", name: "image", widget: "image"}
-       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Name", name: "name", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown", required: false}

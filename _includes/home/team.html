@@ -1,19 +1,56 @@
-<section id="team" class="section scrollspy">
+<section class="section scrollspy grey lighten-4" id="team">
     <div class="container">
-        <h4 class="bolder primary-color-text center-align">Our Team</h4>
+        <h4 class="text-title primary-color-text">Our Team</h4>
+        <div class="glider-contain">
+            <div class="glider-team">
+                {% for item in site.team %}
+                    <div class="card" data-aos="zoom-in" data-aos-duration="3000" style="margin: 20px;">
+                        <div class="card-image waves-effect waves-block waves-light activator">
+                            <img
+                                data-src="{{ item.image }}?nf_resize=fit&w=320"
+                                alt="{{ item.title }}"
+                                data-srcset="{{ item.image }}?nf_resize=fit&h=480 2x,
+                                {{ item.image }}?nf_resize=fit&h=720 3x,
+                                {{ item.image }}?nf_resize=fit&h=1080 4x"
+                                class="lazy">
+                        </div>
 
-        {% for item in site.team %}
-            <div class="col s12 l4">
-                <div class="card small primary-color center white-text">
-                    <div class="card-image">
-                        <img src="{{ item.image }}" alt="{{ item.name }}" data-caption="{{ item.title }}" class="materialboxed">
+                        <div class="card-content left-align">
+                            <span class="card-title activator primary-color-text left-align">{{ item.name }}  <i class="fas fa-ellipsis-v right activator"></i></span>
+                            <br>
+                            <strong>{{ item.title }}</strong>
+                        </div>
+
+                        <div class="card-reveal left-align">
+                            <span class="card-title activator primary-color-text left-align">{{ item.name }}  <i class="right">&times;</i></span>
+                            <br>
+                            <strong>{{ item.title }}</strong>
+
+                            <article class="light text-justified">
+                                {{ item.content }}
+                            </article>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <span class="card-title bolder">{{ item.name }}</span>
-                        <span class="thin">{{ item.title }}</span>
-                    </div>
-                </div>
+                {% endfor %}
             </div>
-        {% endfor %}
+
+            
+            <div role="tablist" class="dots"></div>
+          </div>
     </div>
 </section>
+
+{% for item in site.team %}
+    <div id="Team{{ forloop.index }}" class="modal">
+        <div class="modal-content">
+            <div class="container">
+                <h5 class="text-title primary-color-text">{{ item.name }}</h5>
+                <h6 class="bolder">{{ item.title }}</h6>
+
+                <article class="light text-justified">
+                    {{ item.content }}
+                </article>
+            </div>
+        </div>
+    </div>
+{% endfor %}

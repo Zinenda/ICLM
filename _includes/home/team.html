@@ -4,14 +4,14 @@
         <div class="glider-contain">
             <div class="glider-team">
                 {% for item in site.team %}
-                    <div class="card" data-aos="zoom-in" data-aos-duration="3000" style="margin: 20px;">
+                    <div class="card small" data-aos="zoom-in" data-aos-duration="3000" style="margin: 20px;">
                         <div class="card-image waves-effect waves-block waves-light activator">
                             <img
-                                data-src="{{ item.image }}?nf_resize=fit&w=320"
+                                data-src="{{ item.image }}?nf_resize=fit&w=320&320"
                                 alt="{{ item.title }}"
-                                data-srcset="{{ item.image }}?nf_resize=fit&h=480 2x,
-                                {{ item.image }}?nf_resize=fit&h=720 3x,
-                                {{ item.image }}?nf_resize=fit&h=1080 4x"
+                                data-srcset="{{ item.image }}?nf_resize=fit&w=480&480 2x,
+                                {{ item.image }}?nf_resize=fit&w=720&720 3x,
+                                {{ item.image }}?nf_resize=fit&w=1080&1080 4x"
                                 class="lazy">
                         </div>
 
